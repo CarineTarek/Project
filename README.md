@@ -56,7 +56,7 @@ It provides a foundation for more advanced image processing and machine learning
 
 **_rem_rep_comb.py_** : This code has function serves as an interface between the user's desired image edits and DALL-E 2's image generation capabilities. It takes in information about the image, the desired modifications, and generates a prompt that can be used to guide DALL-E 2 to produce the desired output.
 
-**_rem_rep_init.py_**: This code provides a comprehensive pipeline for processing images, focusing on object detection, segmentation mask generation, and image manipulation
+*'_rem_rep_init.py_'*: This code provides a comprehensive pipeline for processing images, focusing on object detection, segmentation mask generation, and image manipulation
 
 **_rem_rep_main.py_**:This code defines several functions for processing images using masks and generating captions with OpenAI API
 
