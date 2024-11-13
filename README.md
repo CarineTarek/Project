@@ -13,8 +13,7 @@ diffusers, safetensors, transformers: Libraries for specific functionalities.
 accelerate from the Hugging Face GitHub repository.
 requests: Library for making HTTP requests.
 
-**_Essential.py_****Highlighted Text**
- :The code snippet showcases a workflow that involves file handling, downloading resources, setting up a model for image captioning, and processing images and masks in specific directories. 
+**_Essential.py_** :The code snippet showcases a workflow that involves file handling, downloading resources, setting up a model for image captioning, and processing images and masks in specific directories. 
 It provides a foundation for more advanced image processing and machine learning tasks, 
 but completeness and successful execution would require resolving the missing imports and dependencies.
 **_Packages.py_** : This file is a list of imports in the Python script covers a wide range of libraries and modules that are essential for various tasks, including data manipulation, image processing, machine learning, visualizationMake sure to import all
