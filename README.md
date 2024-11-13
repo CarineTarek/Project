@@ -2,16 +2,38 @@
 Dataset manipulation techniques is essential for extracting meaningful insights from data. It forms the foundation for accurate analysis, model building, and decision-making in various fields 
 
 
-### Requierments file 
-A script that performs image inpainting using the LAMA (Local Approach to Missing data Approximation) method.
-### Dependencies
-openai==0.28: OpenAI library with version 0.28.
-jupyter_bbox_widget, roboflow, dataclasses-json, supervision, ultralytics: Additional libraries for various functionalities.
-simple-lama-inpainting==0.1.0: Library for Simple LAMA inpainting method.
-torch, torchvision, transformers, requests, opencv-python, matplotlib, numpy, timm, mmengine, ipywidgets: Common libraries for deep learning, image processing, and visualization.
-diffusers, safetensors, transformers: Libraries for specific functionalities.
-accelerate from the Hugging Face GitHub repository.
-requests: Library for making HTTP requests.
+**Requirements**
+
+The following Python libraries are required for this project:
+
+* **OpenAI:** `openai==0.28`
+* **Image Processing and Machine Learning:**
+    * `torch`
+    * `torchvision`
+    * `transformers`
+    * `opencv-python`
+    * `matplotlib`
+    * `numpy`
+    * `timm`
+    * `mmengine`
+* **Inpainting Library:**
+    * `simple-lama-inpainting==0.1.0`
+* **Additional Libraries:**
+    * `jupyter_bbox_widget`
+    * `roboflow`
+    * `dataclasses-json`
+    * `supervision`
+    * `ultralytics`
+    * `diffusers`
+    * `safetensors`
+    * `accelerate`
+    * `requests`
+
+**Installation:**
+
+To install these dependencies, use the following command:
+
+pip install -r requirements.txt
 
 **_Essential.py_** :The code snippet showcases a workflow that involves file handling, downloading resources, setting up a model for image captioning, and processing images and masks in specific directories. 
 It provides a foundation for more advanced image processing and machine learning tasks, but completeness and successful execution would require resolving the missing imports and dependencies.
