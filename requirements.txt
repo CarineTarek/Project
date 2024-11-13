@@ -1,0 +1,9 @@
+openai==0.28
+'git+https://github.com/facebookresearch/segment-anything.git'
+-q jupyter_bbox_widget roboflow dataclasses-json supervision
+ultralytics
+simple-lama-inpainting==0.1.0
+torch torchvision transformers requests opencv-python matplotlib numpy timm mmengine ipywidgets
+diffusers safetensors transformers
+git+https://github.com/huggingface/accelerate
+requests
