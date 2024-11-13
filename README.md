@@ -31,7 +31,7 @@ Also processes images in the temp_folder by converting black pixels to transpare
 It iterates through all PNG and JPG files in the input folder, applies the transparency transformation
 
 
-### Removal file: Python script that performs various image processing tasks, including converting JPEG images to PNG, running object detection using YOLOv10, generating masks, and saving processed images with bounding boxes and masks. Python code defines two functions, inpaint_with_lama.
+**Removal:** Python script that performs various image processing tasks, including converting JPEG images to PNG, running object detection using YOLOv10, generating masks, and saving processed images with bounding boxes and masks. Python code defines two functions, inpaint_with_lama.
 
 # Usage 
 
