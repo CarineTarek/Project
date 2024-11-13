@@ -1,7 +1,6 @@
 # Project Idea
 Dataset manipulation techniques is essential for extracting meaningful insights from data. It forms the foundation for accurate analysis, model building, and decision-making in various fields 
 
-# Usage 
 
 ### Requierments file 
 A script that performs image inpainting using the LAMA (Local Approach to Missing data Approximation) method.
@@ -32,10 +31,9 @@ Also processes images in the temp_folder by converting black pixels to transpare
 It iterates through all PNG and JPG files in the input folder, applies the transparency transformation
 
 
-### Removal file
-Python script that performs various image processing tasks, including converting JPEG images to PNG, running object detection using YOLOv10, generating masks, and saving processed images with bounding boxes and masks. Python code defines two functions, inpaint_with_lama.
+### Removal file: Python script that performs various image processing tasks, including converting JPEG images to PNG, running object detection using YOLOv10, generating masks, and saving processed images with bounding boxes and masks. Python code defines two functions, inpaint_with_lama.
 
-
+# Usage 
 
 
 # License 
