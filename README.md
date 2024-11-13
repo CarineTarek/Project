@@ -54,14 +54,7 @@ from morse_code_converter import text_to_morse
 text = "Hello, World!"
 morse_code = text_to_morse(text)
 print(morse_code)
-### Prepare your data:
-Ensure your data is in a clean CSV or Excel format.
-Make sure column names are clear and consistent.
-Run the script:
-python data_cleaner.py --input_file your_data.csv --output_file cleaned_data.csv
-Use code with caution.
-Replace your_data.csv with the path to your input file.
-The script will clean the data and save it to cleaned_data.csv.
+
 
 # License 
 Project represented by Laila 
