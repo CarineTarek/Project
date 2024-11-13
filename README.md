@@ -44,6 +44,8 @@ It provides a foundation for more advanced image processing and machine learning
 
 **_Removal.py_** : Python script that performs various image processing tasks, including converting JPEG images to PNG, running object detection using YOLOv10, generating masks, and saving processed images with bounding boxes and masks. Python code defines two functions, inpaint_with_lama.
 
+**_Removal_only.py_** :This script provides a comprehensive image editing pipeline focused on removing or replacing elements within images. Also this script focuses on inpainting images using LaMa (Large Mask Inpainting with Differentiable Renderer) after object removal through masks.
+
 # Usage 
 
 _`dalle_init.py`_ : For processing images, converting image formats, performing object detection using YOLOv10, and handling masks and image segmentation tasks.
@@ -64,7 +66,11 @@ _`rem_rep_process.py`_: This code defines functions for inpainting images with L
 
 _`rem_rep_gen.py`_: This script appears to be a multi-step process for removing and replacing elements in images using a combination of techniques and tools. In this file We call all the function we created on this part of removal 
 
+_`Removal_only.py`_: This code performs image editing with object removal and potentially segmentation functionalities It uses YOLOv10 for detection and a segmentation model (potentially Sam) to generate masks. It performs filtering, visualization, and data recording for processed images.
 
+_`Removal_onlygen.py`_: This code where we can call all the function we build for see the output needed
+
+_`Removal_onlymain.py`_: This code performs image inpainting, which fills in missing or unwanted regions in an image.
 
 
 # License 
